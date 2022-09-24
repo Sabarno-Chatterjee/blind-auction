@@ -1,5 +1,5 @@
 #from replit import clear
-#HINT: You can call clear() to clear the output in the console.
+#Need to figure out the clear screen part
 
 from art import logo
 
@@ -23,6 +23,7 @@ while is_continue:
     auction(fresh_name, fresh_bid)
     more = input("Are there any more bidders? Enter 'yes' or 'no'.\n")
     clear()
+    #Need to figure out the clear screen part
     if more == "no":
         is_continue = False
 
