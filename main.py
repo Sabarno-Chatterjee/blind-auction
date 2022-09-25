@@ -9,6 +9,7 @@ print("Welcome to blind auction program.\n")
 
 
 def auction(fresh_name, fresh_bid):
+    """This function is used to add names of new bidders"""
     new_bids = {}
     new_bids[fresh_name] = fresh_bid
     bids.update(new_bids)
